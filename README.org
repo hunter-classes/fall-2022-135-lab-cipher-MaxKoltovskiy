@@ -1,10 +1,10 @@
 * Fall 2021 - Lab Cipher
 
-* Last name:
+* Last name: Koltovskiy
 
-* First name:
+* First name: Max
 
-* GitHub username:
+* GitHub username: MaxKoltovskiy
 
 * Notes:
 
@@ -36,4 +36,3 @@ You can add additional functions and place all functionality in files
 that make sense (and/or add new ones). 
 
 You should use doctest based tests to show that this works.
-
