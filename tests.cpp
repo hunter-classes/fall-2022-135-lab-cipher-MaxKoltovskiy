@@ -4,6 +4,7 @@
 #include "caesar.h"
 #include "vigenere.h"
 #include "decrypt.h"
+#include "solve.h"
 
 // add your tests here
 TEST_CASE("Shift Char"){
@@ -40,4 +41,8 @@ TEST_CASE("Decrypt Caesar"){
 TEST_CASE("Decrypt Vigenere"){
     CHECK(decryptVigenere("Jevpq, Wyvnd!", "cake") == "Hello, World!");
     CHECK(decryptVigenere("ZABC","z") == "ABCD");
+}
+TEST_CASE("Solve Caesar Cipher"){
+    CHECK(solve("F Qnlmy-Djfw Fufwy") == "A Light-Year Apart");
+    CHECK(solve("Bfd yt Lt!") == "Way to Go!");
 }
